@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="stylenote.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+    <title>Note Manager</title>
+    <meta name="author" content="Vitor Mendonca">
+</head>
+
+<body>
+    <div id="container0">
+        <header>
+            <h1>Note Manager</h1>
+            <form action="">
+                <input id="searchbar" type="text" placeholder="Search">
+            </form>
+        </header>
+        <main>
+            <div id="notes">
+                <ul>
+                    <li class="linotes">
+                        <span class="clickicon window-close"><i class="fa fa-window-close fa-lg"></i></span>
+                        <span class="clickicon edit"><i class="fas fa-edit fa-lg"></i></span>
+                        <p class="titleofnotes">First Note</p>
+                        <input type="text" class="inputnote" value="">
+                    </li>
+                    <li class="linotes">
+                        <span class="clickicon window-close"><i class="fa fa-window-close fa-lg"></i></span>
+                        <span class="clickicon edit"><i class="fas fa-edit fa-lg"></i></span>
+                        <p class="titleofnotes">Second Note</p>
+                        <input type="text" class="inputnote" value="">
+                    </li>
+                    <li class="linotes">
+                        <span class="clickicon window-close"><i class="fa fa-window-close fa-lg"></i></span>
+                        <span class="clickicon edit"><i class="fas fa-edit fa-lg"></i><input type="checkbox"></span>
+                        <p class="titleofnotes">Third Note</p>
+                        <input type="text" class="inputnote" value="">
+                    </li>
+                </ul>
+            </div>
+            <div id="hide-notes">
+                <label for="hide">Hide Notes</label>
+                <input id="hide" type="checkbox">
+            </div>
+            <div id="addnotes">
+                <label for="add">Add Note</label>
+                <input id="add" type="text">
+                <input id="btnadd" type="submit" value="Add">
+            </div>
+        </main>
+    </div>
+</body>
+<script src="notejs.js"></script>
+
+</html>

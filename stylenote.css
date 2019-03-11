@@ -1,0 +1,66 @@
+body{
+    font-family: 'Nunito', sans-serif;
+
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style:none;
+}
+#container0{
+    margin:0%  20%;
+    background-color:rgb(198, 225, 230);
+} 
+header{
+    font-weight: bold;
+    padding:5%;
+    text-align: center;
+    background-color: #cccccc;
+    
+}
+header input{
+    width: 28%;
+}
+#notes{
+    margin-left: 5%;
+    margin-bottom: 10%; 
+}
+
+li input {
+    display: none;
+    width: 85%;
+}
+#hide-notes label{
+    user-select: none;
+}
+#hide-notes label:hover{
+ background-color:#cf9797 
+}
+
+input[type="checkbox"]{
+   display: none;
+
+}
+#hide-notes{
+    margin-left:30px;
+    margin-bottom: 15px;
+}
+#addnotes{
+    display: inline-block;
+       text-align: center;
+       margin-left:30%;
+       margin-bottom: 15px;
+}
+#btnadd{
+    background-color:rgb(170, 29, 29);
+    color: white;
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+    font-size:16px; 
+}
+.clickicon{
+    float: right;
+    cursor: pointer;
+    margin-right: 3%;
+}
